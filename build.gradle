@@ -1,0 +1,15 @@
+
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.reactivestreams', name: 'reactive-streams', version: '1.0.0'
+}
